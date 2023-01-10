@@ -1,0 +1,36 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin:0 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  background-color: rgb(55, 126, 207);
+  border: none;
+  color: aliceblue;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+section {
+  text-align: center;
+  min-height: 150px;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(27, 144, 240, 0.603);
+}
+
+
